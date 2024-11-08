@@ -21,4 +21,5 @@ socket.on('chat message', (msg) => {
   messageElement.textContent = msg;
   chatBox.appendChild(messageElement);
   chatBox.scrollTop = chatBox.scrollHeight; // Yangi xabarlar pastga tushishi uchun
+  console.log('Foydalanuvchi ulanishi amalga oshdi');
 });
